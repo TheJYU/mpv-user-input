@@ -465,6 +465,7 @@ local function get_bindings()
         { 'enter',       handle_enter                           },
         { 'kp_enter',    handle_enter                           },
         { 'shift+enter', function() handle_char_input('\n') end },
+        { 'shift+kp_enter', function() handle_char_input('\n') end },
         { 'ctrl+j',      handle_enter                           },
         { 'ctrl+m',      handle_enter                           },
         { 'bs',          handle_backspace                       },
